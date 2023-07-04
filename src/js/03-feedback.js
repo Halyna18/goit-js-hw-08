@@ -17,13 +17,6 @@ function storageFormData(e) {
 
 function onFormSubmit(e) {
   e.preventDefault();
-  //      if (refs.input.value === "" || refs.textarea.value === "") {
-  //          return alert(`Please fill in all the fields!`);
-  //      }
-  // or
-  // const { email, message } = e.currentTarget.elements;
-  // console.log({ email: email.value, message: message.value });
-  // or
   console.log(formData);
   e.currentTarget.reset();
   localStorage.removeItem(LOCAL_KEY);
